@@ -3,16 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Container
+  - Sensor
+  - Ball
+  - Spawn Point
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Border
   - Water
   - UI
   - 
-  - 
+  - Instantiate Area
   - 
   - 
   - 
@@ -40,4 +44,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2557019703
+    locked: 0
+  - name: Play Background
+    uniqueID: 1704883823
+    locked: 0
+  - name: Border
+    uniqueID: 3448049013
+    locked: 0
+  - name: Instantiate Area
+    uniqueID: 3382111389
     locked: 0
