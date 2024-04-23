@@ -5,9 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Container
-  - Sensor
   - Ball
   - Spawn Point
+  - Fill Sensor
+  - Ground
   layers:
   - Default
   - TransparentFX
