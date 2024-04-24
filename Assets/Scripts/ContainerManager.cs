@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ContainerManager : MonoBehaviour
@@ -12,12 +11,7 @@ public class ContainerManager : MonoBehaviour
         StartCoroutine(BlinkContainerSensor());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    //Set Active and false of the container sensor object to make it visually appear as blinking.
     IEnumerator BlinkContainerSensor()
     {
         isBlinking = true;

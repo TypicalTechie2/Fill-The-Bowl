@@ -9,6 +9,10 @@ TagManager:
   - Spawn Point
   - Fill Sensor
   - Ground
+  - Ground Sensor
+  - BallObstacle
+  - WallObstacle
+  - FireBall
   layers:
   - Default
   - TransparentFX
