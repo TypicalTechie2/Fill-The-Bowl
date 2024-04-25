@@ -5,17 +5,13 @@ using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField] TMP_Text fillTheBoxText;
     [SerializeField] Button playButton;
     [SerializeField] Button musicButton;
     [SerializeField] Sprite musicOnSprite;
     [SerializeField] Sprite musicOffSprite;
     [SerializeField] Image musicImage;
-    [SerializeField] float textFloatHeight = 15.0f;
-    [SerializeField] float textFloatSpeed = 2.0f;
     public float buttonZoomAmount = 10f;
     public float buttonZoomSpeed = 2f;
-    private Vector2 initialPosition;
     private Vector2 buttonInitialScale;
     public bool isMusicOn = true;
     public AudioManager audioManager;
@@ -23,7 +19,6 @@ public class MainMenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        initialPosition = fillTheBoxText.transform.position;
         buttonInitialScale = playButton.transform.localScale;
 
         // Get the Image component from the Source Image component of the music button
@@ -35,20 +30,12 @@ public class MainMenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FloatFillTheBoxText(); // Perform floating animation for fill the box text
         ZoomInAndOutPlayButton(); // Perform zoom in and out animation for the play button
     }
 
     public void StartGame()
     {
         SceneManager.LoadScene("Level1");
-    }
-
-    // Method to perform floating animation for fill the box text
-    void FloatFillTheBoxText()
-    {
-        float yOffset = Mathf.Sin(Time.time * textFloatSpeed) * textFloatHeight;
-        fillTheBoxText.transform.position = initialPosition + new Vector2(0, yOffset);
     }
 
     // Method to perform zoom in and out animation for the play button

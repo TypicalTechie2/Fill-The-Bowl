@@ -447,7 +447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 425637009}
   - component: {fileID: 425637008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Container Sensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -665,6 +665,7 @@ GameObject:
   - component: {fileID: 528912210}
   - component: {fileID: 528912212}
   - component: {fileID: 528912211}
+  - component: {fileID: 528912213}
   m_Layer: 7
   m_Name: Container3
   m_TagString: Container
@@ -784,6 +785,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &528912213
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528912209}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &692294007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14927d5f84c73c348bdba76fbd682edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballPrefab: {fileID: 1836004505981193292, guid: 3f24fe7fc1c395047880c2fdd4ae2ee5, type: 3}
+  ballPrefab: {fileID: 7765356805450606374, guid: 0b10e0965fe81a74dab82848e7b0ebf5, type: 3}
   spawnPoint: {fileID: 1594600210}
   spawnArea: {fileID: 1594600209}
   clickHereText: {fileID: 737003413}
@@ -1791,10 +1837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bccb7d7af0736d143af809dff24c8475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 749567394}
   filledPercentageText: {fileID: 1412124154}
   stageClearText: {fileID: 2035634093}
   storageIsFull: 0
-  gameManager: {fileID: 749567394}
 --- !u!61 &1133479656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1866,7 +1912,7 @@ GameObject:
   - component: {fileID: 1201449797}
   - component: {fileID: 1201449799}
   - component: {fileID: 1201449798}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2154,7 +2200,7 @@ GameObject:
   - component: {fileID: 1296386021}
   - component: {fileID: 1296386020}
   - component: {fileID: 1296386019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Container
   m_TagString: Container
   m_Icon: {fileID: 0}
@@ -2259,6 +2305,7 @@ GameObject:
   - component: {fileID: 1366616416}
   - component: {fileID: 1366616418}
   - component: {fileID: 1366616417}
+  - component: {fileID: 1366616419}
   m_Layer: 7
   m_Name: Container1
   m_TagString: Container
@@ -2378,6 +2425,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1366616419
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366616415}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1412124152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,7 +2817,7 @@ GameObject:
   - component: {fileID: 1560619737}
   - component: {fileID: 1560619739}
   - component: {fileID: 1560619738}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square (1)
   m_TagString: FireBall
   m_Icon: {fileID: 0}
@@ -3464,7 +3556,7 @@ GameObject:
   - component: {fileID: 1739344025}
   - component: {fileID: 1739344027}
   - component: {fileID: 1739344026}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square
   m_TagString: FireBall
   m_Icon: {fileID: 0}
@@ -3594,7 +3686,7 @@ GameObject:
   - component: {fileID: 1901506408}
   - component: {fileID: 1901506407}
   - component: {fileID: 1901506409}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle
   m_TagString: FireBall
   m_Icon: {fileID: 0}
@@ -3714,6 +3806,7 @@ GameObject:
   - component: {fileID: 1938864867}
   - component: {fileID: 1938864869}
   - component: {fileID: 1938864868}
+  - component: {fileID: 1938864870}
   m_Layer: 7
   m_Name: Container2
   m_TagString: Container
@@ -3833,6 +3926,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1938864870
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938864866}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1957003795
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,7 +4015,7 @@ GameObject:
   - component: {fileID: 2015084008}
   - component: {fileID: 2015084010}
   - component: {fileID: 2015084009}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4129,7 +4267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2054389689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FireBallObstacle
   m_TagString: FireBall
   m_Icon: {fileID: 0}

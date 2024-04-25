@@ -853,7 +853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14927d5f84c73c348bdba76fbd682edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballPrefab: {fileID: 1836004505981193292, guid: 3f24fe7fc1c395047880c2fdd4ae2ee5, type: 3}
+  ballPrefab: {fileID: 7765356805450606374, guid: 0b10e0965fe81a74dab82848e7b0ebf5, type: 3}
   spawnPoint: {fileID: 665119714}
   spawnArea: {fileID: 665119713}
   clickHereText: {fileID: 78796657}
@@ -1293,6 +1293,7 @@ GameObject:
   - component: {fileID: 668565439}
   - component: {fileID: 668565441}
   - component: {fileID: 668565440}
+  - component: {fileID: 668565442}
   m_Layer: 7
   m_Name: Container1
   m_TagString: Container
@@ -1412,6 +1413,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &668565442
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668565438}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &821007057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,7 +1469,7 @@ GameObject:
   - component: {fileID: 821007058}
   - component: {fileID: 821007060}
   - component: {fileID: 821007059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,7 +1722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 959464438}
   - component: {fileID: 959464437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Container Sensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2461,6 +2507,7 @@ GameObject:
   - component: {fileID: 1358485249}
   - component: {fileID: 1358485251}
   - component: {fileID: 1358485250}
+  - component: {fileID: 1358485252}
   m_Layer: 7
   m_Name: Container3
   m_TagString: Container
@@ -2580,6 +2627,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1358485252
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358485248}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1552766354
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,6 +3100,7 @@ GameObject:
   - component: {fileID: 1810632969}
   - component: {fileID: 1810632971}
   - component: {fileID: 1810632970}
+  - component: {fileID: 1810632972}
   m_Layer: 7
   m_Name: Container2
   m_TagString: Container
@@ -3127,6 +3220,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1810632972
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810632968}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1861801480
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,7 +3276,7 @@ GameObject:
   - component: {fileID: 1861801481}
   - component: {fileID: 1861801483}
   - component: {fileID: 1861801482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3419,7 +3557,7 @@ GameObject:
   - component: {fileID: 1994988264}
   - component: {fileID: 1994988263}
   - component: {fileID: 1994988262}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Container
   m_TagString: Container
   m_Icon: {fileID: 0}
@@ -3543,10 +3681,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bccb7d7af0736d143af809dff24c8475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 420612244}
   filledPercentageText: {fileID: 1116104771}
   stageClearText: {fileID: 2109919087}
   storageIsFull: 0
-  gameManager: {fileID: 420612244}
 --- !u!61 &2006573209
 BoxCollider2D:
   m_ObjectHideFlags: 0
